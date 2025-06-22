@@ -72,5 +72,5 @@ job_board/
 
 ## 👩‍💼 Admin Credentials (For Testing)
 
-**Email:** admin@admin.com
-**Password:** any (mock system)
+- **Email:** admin@admin.com
+- **Password:** any (mock system)
