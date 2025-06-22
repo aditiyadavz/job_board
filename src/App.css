@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.main-content {
+  min-height: 80vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #0077cc;
+}
+
+form input,
+form textarea,
+form button {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+/* Default Light Theme */
+body.light {
+  --nav-bg: #0077cc;
+  --nav-text: #ffffff;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+  --nav-bg: #222;
+  --nav-text: #f7f7f7;
+  background-color: #121212;
+  color: #f7f7f7;
+}
+
+/* Shared Styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+body.light {
+  --nav-bg: #0077cc;
+  --nav-text: #ffffff;
+  background-color: #f7f9fc;
+  color: #000; /* Black text */
+}
+
+body.dark {
+  --nav-bg: #222;
+  --nav-text: #f7f7f7;
+  background-color: #121212;
+  color: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;  /* <- this is key */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

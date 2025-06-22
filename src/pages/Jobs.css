@@ -1,0 +1,112 @@
+.jobs-container {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+.filter-input {
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 2px solid #0077cc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 30px;
+}
+
+.job-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.job-card button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #005fa3;
+}
+
+/* Apply form styling */
+.apply-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 500px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.apply-form h2 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+.apply-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.apply-form input,
+.apply-form textarea {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.apply-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.apply-form button[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+}
+
+.apply-form .close-btn {
+  background-color: #eee;
+  color: #333;
+}
