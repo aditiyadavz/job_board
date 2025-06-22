@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 💼 Job Board Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive and user-friendly **Job Board Web Application** built with React.js, CSS, and React Router. This platform allows users to explore jobs, apply with resumes, and manage profiles. Admins can manage job postings and applications.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **🔍 Explore Jobs** – Browse and filter jobs by title, location, or type.
+- **📝 Apply Online** – Apply to jobs with resume upload and short statement.
+- **🔐 User Auth System** – Login/Signup with session handling using React Context.
+- **👤 User Dashboard** – View your applications and profile.
+- **🛠️ Admin Dashboard** – Post new jobs and view all applications (admin access only).
+- **🌗 Light/Dark Mode Toggle** – Theme toggle for a better user experience.
+- **📱 Fully Responsive UI** – Mobile-first, adaptive layout.
+- **📦 React Router** – Seamless client-side routing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+job_board/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/      # Backgrounds, logos
+│   ├── components/  # Navbar, Header, JobCard, Footer, etc.
+│   ├── pages/       # Home, Jobs, Login, Signup, Dashboard, About
+│   ├── context/     # AuthContext
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── .gitignore
+├── package.json
+└── README.md 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 🖥️ Welcome Screen
+<img src="img/Home.png" width="300" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📌 Pages
+<img src="img/Jobs.png" width="200" />
+<img src="img/Apply.png" width="200" />
+<img src="img/About.png" width="200" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📌 Admin LogIn / SignUp
+<img src="img/LogIn.png" width="200" />
+<img src="img/SignUp.png" width="200" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💻 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React.js** – Component-based SPA
+- **CSS3** – Custom styling
+- **React Router DOM** – Page navigation
+- **Git & GitHub** – Version control and hosting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧠 How it works?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Home** – Intro and CTA for exploring jobs.
+- **Jobs** – Search, filter, and apply to jobs.
+- **Apply** – Fill name, email, reason, and upload resume.
+- **Dashboard** – View your applied jobs.
+- **Admin?** – Use admin@admin.com to login and manage postings.
+- **Dark Mode** – Toggle with ☀️/🌙 button.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👩‍💼 Admin Credentials (For Testing)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Email:** admin@admin.com
+**Password:** any (mock system)
