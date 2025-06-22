@@ -36,6 +36,7 @@ button {
 button:hover {
   background-color: #005fa3;
 }
+
 /* Default Light Theme */
 body.light {
   --nav-bg: #0077cc;
@@ -46,9 +47,9 @@ body.light {
 
 /* Dark Theme */
 body.dark {
-  --nav-bg: #222;
+  --nav-bg: #151922;
   --nav-text: #f7f7f7;
-  background-color: #121212;
+  background-color: #323441;
   color: #f7f7f7;
 }
 
@@ -57,16 +58,16 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 body.light {
-  --nav-bg: #0077cc;
+  --nav-bg: #5885AF;
   --nav-text: #ffffff;
-  background-color: #f7f9fc;
-  color: #000; /* Black text */
+  background-color: #a7c5ca;
+  color: #000;
 }
 
 body.dark {
-  --nav-bg: #222;
+  --nav-bg:  #254868;
   --nav-text: #f7f7f7;
-  background-color: #121212;
+  background-color: #3a5178;
   color: #f7f7f7;
 }
 

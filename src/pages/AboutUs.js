@@ -14,8 +14,8 @@ function AboutUs() {
         <h2>📬 Contact Information</h2>
         <ul className="contact-list">
           <li><strong>Email:</strong> support@jobportal.com</li>
-          <li><strong>Phone:</strong> +91 98765 43210</li>
-          <li><strong>Address:</strong> B-Block, Tech Park, Bengaluru, India</li>
+          <li><strong>Phone:</strong> +91 9876543210</li>
+          <li><strong>Address:</strong> Sharda University, Knowledge Park III, Greater Noida, India</li>
         </ul>
 
         <h2>👩‍💻 Meet the Team</h2>

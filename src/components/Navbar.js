@@ -19,7 +19,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to="/">JobPortal</Link>
+        <Link to="/" style={{ textDecoration: 'none' }}>
+          <h1 style={{ textAlign: 'center', color: 'white' }}>🔍 Job Board</h1>
+        </Link>
       </div>
 
       <ul className="nav-links">

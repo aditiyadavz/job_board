@@ -28,7 +28,7 @@ function Jobs({ jobs }) {
 
   return (
     <div className="jobs-container">
-      <h1>🔍 Explore Available Jobs</h1>
+      <h1>📋 Explore Available Jobs</h1>
       <input
         type="text"
         placeholder="Filter by title, location, or type"
@@ -43,7 +43,7 @@ function Jobs({ jobs }) {
             <h3>{job.title}</h3>
             <p><strong>Location:</strong> {job.location}</p>
             <p><strong>Type:</strong> {job.type}</p>
-            <button onClick={() => setSelectedJob(job)}>Apply</button>
+            <button onClick={() => setSelectedJob(job)}>Apply Now 📝</button>
           </li>
         ))}
       </ul>
