@@ -20,7 +20,7 @@ function AboutUs() {
 
         <h2>👩‍💻 Meet the Team</h2>
         <ul className="team-list">
-          <li>Aditi Yadav - CEO</li>
+          <li>Aditi Yadav</li>
           
         </ul>
       </div>

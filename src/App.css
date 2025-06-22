@@ -53,7 +53,6 @@ body.dark {
   color: #f7f7f7;
 }
 
-/* Shared Styles */
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -68,7 +67,7 @@ body.dark {
   --nav-bg:  #254868;
   --nav-text: #f7f7f7;
   background-color: #3a5178;
-  color: #f7f7f7;
+  color: #000;
 }
 
 body {
