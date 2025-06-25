@@ -4,11 +4,6 @@ A fully responsive and user-friendly **Job Board Web Application** built with Re
 
 ---
 
-## Watch it live:-
-job-board-git-main-aditi-yadavs-projects-3dd6b72c.vercel.app
-
----
-
 ## 🚀 Features
 
 - **🔍 Explore Jobs** – Browse and filter jobs by title, location, or type.
